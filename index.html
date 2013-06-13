@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<title>Le pong</title>
+
+<script src="http://localhost:8888/socket.io/socket.io.js"></script>
+<script type="text/JavaScript" src="consoleFramework/console.js"></script>
+
+</head>
+
+<body>
+
+<script type="text/JavaScript">
+
+var game = new game("test", 2);
+initConnection(game);
+
+function handshake1()
+{
+	console.log("connecting...");
+}
+
+</script>
+
+<center> 
+  <button onclick="handshake1()">Test</button>
+</center>
+
